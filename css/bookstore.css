@@ -1,0 +1,95 @@
+﻿.align-left {
+    display: inline;
+    float: left;
+}
+
+.align-right {
+    display: inline;
+    float: right;
+}
+
+.align-center {
+    clear: both;
+    display: block;
+    margin: auto;
+}
+
+.login-username-text{
+    float:right;
+    font-weight:400;
+    color:#cde123;
+    font-size:20px;
+}
+
+.align-center-text {
+    text-align:center;
+}
+
+.book-show-div{
+    height:270px;
+    width:25%;
+    float:left;
+}
+
+.book-show-img {
+    margin-top:8px;
+    margin-bottom:8px;
+    width: 170px;
+    height: 200px;
+}
+
+.book-show-name{
+    margin:4px;
+    color:#171616;
+}
+
+.book-show-price{
+    margin:4px;
+    font-weight:700;
+    color:#dc2727;
+}
+
+#categoryList li a{
+    font-size:17px;
+    cursor:pointer;
+    color:black;
+}
+
+#categoryList li a:hover{
+   color:orange;
+}
+
+.cart-show-img {
+    margin-top:8px;
+    margin-bottom:8px;
+    width: 125px;
+    height: 160px;
+}
+
+.box{
+    display:block;
+    border-radius:4px;
+    border:1px #ddd solid;
+    background-color:#fff;
+}
+
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
